@@ -1,0 +1,258 @@
+.form1 {
+    background-image: linear-gradient(110deg, rgb(17, 0, 255), rgb(255, 0, 55));
+    position: relative;
+    left: 50%;
+    border-radius: 5px;
+    width: 450px;
+    height: 550px;
+}
+
+.interno {
+    position: relative;
+    left: -20px;
+}
+
+.icon {
+    position: relative;
+    top: 9px;
+    left: 7px;
+}
+
+.icon1 {
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    margin-left: 240px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+    font-size: 10px;
+    margin-top: 50px;
+}
+
+label {
+    color: white;
+    position: relative;
+    top: -29px;
+    left: -30px;
+}
+
+span {
+    position: relative;
+    left: 100px;
+    color: white;
+}
+
+hr {
+    margin-left: -0px;
+    width: 400px;
+}
+
+.email input {
+    width: 300px;
+    margin-left: -60px;
+    height: 25px;
+}
+
+.email {
+    margin-left: 75px;
+}
+
+.senha {
+    margin-left: 75px;
+}
+
+.user {
+    position: relative;
+    left: 270px;
+}
+
+.envelope {
+    position: relative;
+    left: 190px;
+}
+
+.cadeado {
+    position: relative;
+    left: 190px;
+}
+
+.seta {
+    position: relative;
+    top: -12px;
+    left: 135px;
+    width: 15px;
+}
+
+.enviar1 {
+    position: relative;
+    top: 20px;
+    left: 55px;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+}
+
+ul p {
+    margin-left: 80px;
+}
+
+.twitter {
+    margin-left: 220px;
+}
+
+.facebook {
+    margin-left: -50px;
+}
+
+.final {
+    margin-top: 30px;
+}
+
+#senha {
+    width: 298px;
+    position: relative;
+    left: -13px;
+}
+
+.user1 {
+    position: relative;
+    left: -30px;
+}
+
+.senha1 {
+    margin-left: 12px;
+}
+
+.finalicons {
+    margin-top: 20px;
+}
+
+.interno h1 {
+    margin-left: 70px;
+}
+
+.form2 {
+    width: 450px;
+    height: 400px;
+    position: relative;
+    top: -550px;
+    left: 10%;
+    box-shadow: 0 0 25px 7px rgb(189, 186, 186);
+    margin-top: 3%;
+}
+
+.form2>.interno {
+    margin-top: 60px;
+}
+
+#titulo {
+    position: relative;
+    top: 30px;
+    left: 150px;
+}
+
+#titulo>h1 {
+    color: black;
+    position: relative;
+    left: -125px;
+    font-size: 30px;
+}
+
+#titulo>h4 {
+    position: relative;
+    top: -20px;
+    left: 20px;
+}
+
+.checkbox {
+    position: relative;
+    left: 50px;
+}
+
+a {
+    font-size: 13px;
+    position: relative;
+    top: -15px;
+    left: 260px;
+}
+
+.enviar {
+    border: none;
+    background-color: blue;
+    position: relative;
+    top: -20px;
+    left: 55px;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+}
+
+.botao {
+    width: 100px;
+    height: 50px;
+}
+
+.enviar1 {
+    height: 50px;
+}
+
+.seta1 {
+    position: relative;
+    top: -40px;
+    left: 135px;
+    width: 13px;
+}
+
+.botao1 {
+    position: relative;
+    top: -50px;
+}
+
+.botao1>.enviar {
+    color: white;
+}
+
+.interno2 {
+    position: relative;
+    left: -20px;
+}
+
+@media screen and (max-width: 1165px) {
+    .form1 {
+        background-image: linear-gradient(110deg, rgb(17, 0, 255), rgb(255, 0, 55));
+        position: relative;
+        left: 35%;
+        width: 450px;
+        height: 550px;
+    }
+    .form2 {
+        border: 1px solid black;
+        width: 450px;
+        height: 550px;
+        position: relative;
+        left: 35%;
+        margin-top: 575px;
+    }
+}
+
+.linhacolorida {
+    background-image: linear-gradient(110deg, rgb(17, 0, 255), rgb(255, 0, 55));
+    width: 305px;
+    height: 2px;
+    margin-left: -20px;
+}
+
+.forgot {
+    position: relative;
+    top: -47px;
+}

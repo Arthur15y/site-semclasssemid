@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--
+    <h1>Mais Forms</h1>
+    <hr>
+    <form action="" method="post">
+        <ul>
+            <li>
+            <label for="txtUser">User</label>
+            <input type="text" id="txtUser" name="txtUser" required placeholder="Usuário">
+        </li>
+            <li>
+                <label for="pasSenha">Pass</label>
+                <input type="password" name="pasSenha" id="pasSenha" placeholder="Senha" >
+               </li>
+            <li>
+                <input type="submit" value="Entrar">
+            </li>
+        </ul>
+    </form>
+    <hr>
+    <form action="" method="post">
+        <ul>
+            <li>
+                <h3>Maior Time do Sul</h3>
+                <input type="radio" name="time" value="Inter">Inter
+                <input type="radio" name="time" value="Grêmio">Grêmio
+                <input type="radio" name="time" value="Juventude">Juventude
+                <input type="radio" name="time" value="Cruzeiro"> Cruzeiro
+                <input type="radio" name="time" value="Aimoré">Aimoré
+                <input type="radio" name="time" value="São José">São José
+            </li>
+            <li>
+                <h3>Linguagens Web</h3>
+                <input type="checkbox" name="web[]" value="HTML">HTML
+                <input type="checkbox" name="web[]" value="CSS">CSS
+                <input type="checkbox" name="web[]" value="JA">JA
+                <input type="checkbox" name="web[]" value="Legalweb">Legalweb
+                <input type="checkbox" name="web[]" value="PHP">PHP
+                <input type="checkbox" name="web[]" value="JS">JS
+
+            </li>
+            <li>
+                <label for="">Mensagem</label>
+                <textarea name="txaMensagem" id="txaMensagem" cols="30" rows="10"></textarea>
+            </li>
+        </ul>
+    </form>
+    <hr>
+-->
+    <form class="form1" action="" method="post">
+        <div class="interno">
+            <div class="icon1"> <img class="icon" src="img/user.png" width="15px"></div>
+            <h1>Create account!</h1>
+            <ul>
+                <li class="email">
+                    <img class="user" src="img/user-free-icon-font.png" width="10px">
+                    <label for="txtUser">Name</label>
+                    <input type="text" id="txtUser" name="txtUser" required placeholder=" enter your name   ">
+                </li>
+                <li class="email" style="position:relative ; left: -4px;">
+                    <img class="user" src="img/envelope-free-icon-font.png" width="10px">
+                    <label for="txtEmail">E-mail</label>
+                    <input type="email" name="txtEmail" id="txtEmail" required placeholder="enter your e-mail">
+                </li>
+                <li class="email" style="position:relative ; left: -5px;">
+
+                    <label class="senha1" for="pasSenha">Password</label>
+                    <input id="senha" type="password" name="pasSenha" id="pasSenha" placeholder="enter a name">
+                    <img class="user1" src="img/lock-free-icon-font.png" width="10px">
+                </li>
+                <li class="botao">
+                    <input class="enviar1" type="submit" value="Create">
+                    <img class="seta" src="img/arrow-right.png" width="10px">
+
+                </li>
+                <div class="final">
+                    <hr>
+                    <span>Or Create account using social medial</span>
+                    <div class="finalicons">
+                        <img class="twitter" src="img/twitter-free-icon-font.png" width="14px">
+                        <img class="facebook" src="img/facebook-free-icon-font.png" width="14px">
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </form>
+
+    <form class="form2" action="" method="post">
+        <div class="interno2">
+            <div id="titulo">
+                <div class="icon1"> <img class="icon" src="img/sign-out-free-icon-font.png" width="25px" ; style="margin-top: -20px; margin-left: -150px;"></div>
+                <h1>Welcome!</h1>
+                <h4>Sign in to your account</h4>
+            </div>
+            <ul>
+                <li class="email">
+                    <img class="user" src="img/user-free-icon-font.png" width="10px">
+                    <label class="name" style="color: black ;" for="txtUser">Name</label>
+                    <input type="text" id="txtUser" name="txtUser" required placeholder=" enter your name   ">
+                    <div class="linhacolorida"></div>
+                </li>
+                <li class="email">
+
+                    <label style="color: black ;" class="senha1" for="pasSenha">Password</label>
+                    <input id="senha" type="password" name="pasSenha" id="pasSenha" placeholder="enter password">
+                    <img class="user1" src="img/eye-free-icon-font.png" width="12px">
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <input style="position:relative; top:-27px" type="checkbox" name="web[]" value="rememberme?">
+                        <span style="color: black ; position: relative; left: 0px; top: -30px; font-size: 12px;">remember
+                            me?</span>
+                    </div>
+                    <a class="forgot" href="#">forgot password?</a>
+                </li>
+                <li class="botao1">
+                    <input class="enviar" type="submit" value="Sign in">
+                    <img class="seta1" src="img/arrow-right-free-icon-font.png" width="10px">
+
+                </li>
+                <div class="final" 2 ">
+                </div>
+            </ul>
+        </div>
+    </form>
+    <script src=" script.js "></script>
+</body>
+
+</html>
